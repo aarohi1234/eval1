@@ -1,0 +1,29 @@
+#all_products{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 60%;
+    margin: auto;
+    gap:35px;
+    margin-top: 20px;
+}
+#all_products>div{
+    border: 1px solid green;
+}
+image{
+    width:100%
+}
+div{
+    border: 1px solid black;
+}
+p{
+    text-align: center;
+}
+div>button{
+    display: block;
+    background-color: teal;
+    margin: auto;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

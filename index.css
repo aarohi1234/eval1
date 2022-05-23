@@ -1,0 +1,31 @@
+body{
+    width:40%;
+    margin:auto;
+    margin-top:20px;
+}
+div{
+    width:50%;
+    margin: auto;
+}
+a{
+   text-decoration: none; 
+}
+button{
+    display: block;
+}
+input{
+    display: block;
+    width:80%;
+    height: 26px;
+    margin-top: 15px;
+}
+form>button{
+    width: 77%;
+    height: 45px;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: teal;
+    color: black;
+    border: none;
+}
